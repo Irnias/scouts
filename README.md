@@ -1,1 +1,1 @@
-# scouts
+Proyecto web para una carrera de postas virtual
