@@ -60,7 +60,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="titulo">
         <h1>Posta 6</h1>
+      </div>  
       <header className="App-header">
 
         <div className="img-container">
