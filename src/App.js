@@ -32,8 +32,9 @@ const Button = styled.button`
 let result = false;
 
 function handleSubmit(event) {
-  (result) ? alert("Correcto! 87, al dar vuelta la imagen y leer los aparcamientos bien, y 'LA' se encuentra repetido en la segunda imagen") : alert("Respuesta incorrecta!")
+  (result) ? alert("Correcto! 87, al dar vuelta la imagen y leer los aparcamientos bien, y 'LA' se encuentra repetido en la segunda imagen") : alert("Respuesta incorrecta!");
   event.preventDefault();
+  window.location.href = "https://posta7.now.sh/"
 }
 
 const useInputValue = initialValue => {
