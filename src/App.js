@@ -33,7 +33,7 @@ let result = false;
 
 function handleSubmit(event) {
   if(result){
-    alert("Correcto! 87, al dar vuelta la imagen y leer los aparcamientos bien, y 'LA' se encuentra repetido en la segunda imagen")
+    alert("Correcto! '87', al dar vuelta la imagen y leer los aparcamientos bien, y 'LA' se encuentra repetido en la segunda imagen")
     window.location.href = "https://posta7.now.sh/"
   } else {
     alert("Respuesta incorrecta!")
@@ -76,6 +76,7 @@ function App() {
           <Button>Enviar respuesta</Button>
         </Form>
       </header>
+      <p> Por consultas o dudas pueden contactar a cualquier diri n.n</p>
     </div>
   );
 }
